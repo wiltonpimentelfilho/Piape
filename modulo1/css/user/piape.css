@@ -1,0 +1,99 @@
+body{
+
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+}
+
+
+
+#logo{
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#faixaAzul{
+	height: 50px;
+	background-color: #26A7DF;
+	color: white;
+	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+	font-size: 26px;
+}
+
+p.text-1{
+	margin-top: 7px;
+}
+
+p.text-2{
+	margin-top: 7px;
+}	
+
+#seta{
+	margin-top: -117px;
+	margin-left: 300px;
+}
+
+
+#faixaAmarela{
+	height: 50px;
+	background-color: #FCD10E;
+	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+	font-size: 26px;
+	color: #676767
+	
+}
+
+#seta2{
+	margin-top: -117px;
+	margin-left: 300px;
+}
+
+#paragrafo{
+	font-family: 'Source Sans Pro',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    color: #676767;
+    
+}
+
+#icones1{
+	margin-left: 220px;
+}
+
+#conheca{
+	margin-left: -80px;
+}
+
+
+.pointer { cursor: pointer; }
+
+#icones1 img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#icones2{
+	margin-left: 220px;
+}
+#icone-atividade{
+	margin-left: -80px;
+}
+
+#icones2 img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+

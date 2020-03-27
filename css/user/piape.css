@@ -1,0 +1,105 @@
+body{
+
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    width: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 200px; 
+    margin-right: 200px;
+}
+
+
+
+#logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#faixaAzul{
+	height: 50px;
+	background-color: #26A7DF;
+	color: white;
+	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+	font-size: 26px;
+}
+
+p.text-1{
+	margin-top: 7px;
+	margin-left: -215px;
+}
+
+p.text-2{
+	margin-top: 7px;
+	margin-left: -287px;
+}
+
+p.text-3{
+	margin-top: -43px;
+	margin-left: -81px;
+}	
+
+#seta{
+	margin-left: -416px;
+}
+
+
+#faixaAmarela{
+	height: 50px;
+	background-color: #FCD10E;
+	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+	font-size: 26px;
+	color: #676767
+	
+}
+
+#paragrafo{
+	font-family: 'Source Sans Pro',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    color: #676767;
+    
+}
+
+#icones1{
+	margin-left: 100px;
+}
+
+#conheca{
+	margin-left: -80px;
+}
+
+
+.pointer { cursor: pointer; }
+
+#icones1 img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#icones2{
+	margin-left: 100px;
+}
+#icone-atividade{
+	margin-left: -80px;
+}
+
+#icones2 img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
