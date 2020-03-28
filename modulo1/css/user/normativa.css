@@ -1,4 +1,7 @@
-body{
+
+/* por SALÉSIO: */
+/* não entendi o efeito prático deste CSS então resolvi comentá-lo pois ele tem uma limitação de largura que não é necessária*/
+/* body{
 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8,7 +11,7 @@ body{
     width: 1000px;
 	margin-left: 400px;
 	margin-top: 50px;
-}
+} */
 
 
 h2{
@@ -33,7 +36,9 @@ p{
     line-height: 2em;
 }
 
-#corpo{
+/* por SALÉSIO: */
+/* este elemento do código abaixo não é mais necessário */
+/* #corpo{
     margin-left: -245px;
     margin-right: 225px;
-}
+} */
