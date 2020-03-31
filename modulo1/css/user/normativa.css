@@ -12,7 +12,13 @@
 	margin-left: 400px;
 	margin-top: 50px;
 } */
-
+.extra{
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #3A5EA8;
+}
 
 h2{
     font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
@@ -35,6 +41,7 @@ p{
     font-size: 16px;
     line-height: 2em;
 }
+
 
 /* por SALÉSIO: */
 /* este elemento do código abaixo não é mais necessário */

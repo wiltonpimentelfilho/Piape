@@ -15,10 +15,10 @@
         <link href="css/theme/theme_color_setup.css" rel="stylesheet" />
         <link href="css/theme/theme_style.css" rel="stylesheet" />
         <link href="css/theme/objects_style.css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="css/user/piape.css">
+        
         <link rel="stylesheet" type="text/css" href="css/user/botao.css">
         <link rel="stylesheet" type="text/css" href="css/user/conheca.css">
-                   
+               
         <title>Módulo1</title>
        
 
@@ -28,35 +28,43 @@
 <body>
 
     <header>
-            <img src="assets/images/module_1/resources/modulo1_abertura.png">
+            <img  class="img-fluid"  src="assets/images/module_1/resources/modulo1_abertura.png">
     </header><br><br>
 
-        <h1>MÓDULO 1</h1>
+    <section>
+        <div class="container">
+            <div class="row" id="icones2">
+                <div class="col-12">
 
-                <div class="row" id="paragrafo">
-                <br><br>
-                        <p>No Módulo 1 você conhecerá o Programa Institucional de Apoio Pedagógico aos Estudantes (PIAPE), a legislação que o ampara e a Resolução que o regulamenta na UFSC. É importante você se apropriar destas informações para seguirmos adiante com o curso.</p>
+                <h1>MÓDULO 1</h1>
+
+                        <div class="row" id="paragrafo">
+                        <br><br>
+                                <p>No Módulo 1 você conhecerá a legislação que ampara e a Resolução que regulamenta o Programa Institucional de Apoio Pedagógico aos Estudantes (PIAPE), na UFSC. É importante você se apropriar destas informações clicando nos botões abaixo, para seguirmos adiante com o curso.</p>
+                        </div>
+                        <br><br>
+
+                        <div id="btn1">
+                            <a href="modulo1_decreto.html" target="_blank" class="botao img-fluid mx-auto">
+                                Decreto
+                            </a>
+                                
+                        </div> 
+
+                        <div id="btn2">
+                            <a href="modulo1_norma.html" target="_blank" class="botao img-fluid mx-auto">
+                                Resolução Normativa
+                            </a>
+                        </div>                               
+                        <br><br>
+
+                        <div>
+                            <a  href="../index.html"><img class="img-fluid mx-auto d-block"  src="assets/images/identity/resources/botao_voltar.png"></a><br><br>
+                        </div>
                 </div>
-        <br><br>
-
-        <div class="row" id="icones2">
-
-                <div class="col-sm-6" id="btn1">
-                    <a href="modulo1_decreto.html" target="_blank" class="botao">
-                        Decreto
-                    </a>
-                        
-                </div> 
-
-                <div class="col-sm-6" id="btn2">
-                    <a href="modulo1_norma.html" target="_blank" class="botao">
-                        Resolução Normativa
-                    </a>
-                </div> 
-                        
-                <br><br>
+            </div>
         </div>
-
+    </section>
 
         <!-- Theme scripts -->
             <script src="scripts/theme/objects_loader.js"></script>
