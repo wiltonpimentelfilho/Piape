@@ -21,29 +21,34 @@ body{
 
 
 #faixaAzul{
-	height: 50px;
 	background-color: #26A7DF;
+	padding: 15px;	
+}
+
+h1.text-1{
 	color: white;
 	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 800;
     text-transform: uppercase;
 	font-size: 26px;
-	
+	margin: auto 0;
 }
 
-p.text-1{
-	margin-top: 7px;
-	margin-left: -215px;
+h1.text-2{
+	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+	font-size: 26px;
+	color: #395DA9
 }
 
-p.text-2{
-	margin-top: 7px;
-	margin-left: -287px;
-}
-
-p.text-3{
-	margin-top: -43px;
-	margin-left: -81px;
+h1.text-3{
+	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+	font-size: 26px;
+	color: #395DA9;
+	margin: auto 0;
 }	
 
 #seta{
@@ -52,13 +57,15 @@ p.text-3{
 
 
 #faixaAmarela{
-	height: 50px;
 	background-color: #FCD10E;
-	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-	font-size: 26px;
-	color: #676767
+	padding: 15px;
+	background-image: url("../../assets/images/identity/resources/seta_titulo.svg");
+	background-repeat: no-repeat;
+	background-position-x: left;
+	background-size: auto;
+
+
+
 }
 
 #paragrafo{
