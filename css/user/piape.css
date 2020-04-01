@@ -4,7 +4,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -23,6 +23,7 @@ body{
 #faixaAzul{
 	background-color: #26A7DF;
 	padding: 15px;	
+	margin-bottom: 20px;
 }
 
 h1.text-1{
@@ -32,6 +33,7 @@ h1.text-1{
     text-transform: uppercase;
 	font-size: 26px;
 	margin: auto 0;
+	text-align:center;
 }
 
 h1.text-2{
@@ -49,6 +51,7 @@ h1.text-3{
 	font-size: 26px;
 	color: #395DA9;
 	margin: auto 0;
+	text-align: center;
 }	
 
 #seta{
@@ -63,9 +66,7 @@ h1.text-3{
 	background-repeat: no-repeat;
 	background-position-x: left;
 	background-size: auto;
-
-
-
+	margin-bottom: 20px;
 }
 
 #paragrafo{
@@ -75,36 +76,26 @@ h1.text-3{
     
 }
 
-#icones1{
-	margin-left: 100px;
-}
-
-#conheca{
-	margin-left: -80px;
-}
-
 
 .pointer { cursor: pointer; }
 
 #icones1 img:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-#icones2{
-	margin-left: 100px;
-}
-#icone-atividade{
-	margin-left: -80px;
+
+.icon-box {
+	display: inline-block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#icones2 img:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+.icon-image {
+	margin: 40px;
+
 }
