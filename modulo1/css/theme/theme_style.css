@@ -15,17 +15,20 @@ body{
     color:#333;
     margin-bottom:1.75rem;
 */
-}
+
 h1, h2, h3, h4, h5{
 	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
 	color:#3A5EA8;
-	font-weight: 800;
+    font-weight: 800;
+    display:block;
+    margin-top: 30px;
 }
+
 p, ul, ol{
 	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
 	color:#676767;
 	font-weight:  400;
-	margin-bottom: 2rem;
+	/* margin-bottom: 1rem; */
 }
 a.box-dest{
     background:#feb477 !important; 
