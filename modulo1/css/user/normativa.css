@@ -46,17 +46,45 @@ p{
     line-height: 2em;
 }
 
+ul.navbar-nav.pointer {
+    width: 140px;
+}
+ul.navbar-nav.banch {
+    width: 415px;
+}
 
+/* salésio - novo */
+@media (max-width: 991px) {
+    .h1, h1 {
+        font-size: 1.6rem;
+    }
+    #main-title{
+        font-size: 24px; 
+
+    }
+    ul.navbar-nav.banch {
+        width: 315px;
+    }
+}
 
 /* salésio - novo */
 @media (max-width: 767px) {
     .h1, h1 {
-        font-size: 1.6rem !important;
+        font-size: 1.6rem;
+    }
+    ul.navbar-nav.banch {
+        width: 60px;
     }
 }
 /* salésio - novo */
-@media (max-width: 575px) {
-    .navbar-nav{
+@media (max-width: 575px) { 
+    ul.navbar-nav.banch {
+        width: 48px;
+    } 
+    #main-title{
+        font-size: 18px; 
+    }
+    ul.navbar-nav.pointer {
         width: 75px;
     }
 }
