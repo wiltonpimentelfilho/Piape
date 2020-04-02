@@ -295,7 +295,7 @@ a.article:hover {
 }
 
 .titulo-header .title-mobile {
-    display: none;
+    display: contents;
 }
 
 .logo .desktop {
