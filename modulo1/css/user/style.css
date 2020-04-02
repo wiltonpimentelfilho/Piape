@@ -434,6 +434,9 @@ table.tableizer-table {
         top: -16%;
         left: 168px;
     }
+    .h1, h1 {
+        font-size: 1.6rem !important;
+    }
 }
 @media (max-width: 575px) {
     .para-pensar img {

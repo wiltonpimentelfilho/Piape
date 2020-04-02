@@ -47,6 +47,20 @@ p{
 }
 
 
+
+/* salésio - novo */
+@media (max-width: 767px) {
+    .h1, h1 {
+        font-size: 1.6rem !important;
+    }
+}
+/* salésio - novo */
+@media (max-width: 575px) {
+    .navbar-nav{
+        width: 75px;
+    }
+}
+
 /* por SALÉSIO: */
 /* este elemento do código abaixo não é mais necessário */
 /* #corpo{
