@@ -17,13 +17,13 @@
             <link rel="stylesheet" href="css/user/sidebar.css">
             <link rel="stylesheet" href="css/navbar/mcustomscrollbar.css">
             <link rel="stylesheet" href="css/navbar/navbar-style.css">
+
+            <link rel="stylesheet" href="css/user/normativa.css">
                 
             <link href="assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
 
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-        <!--    <link rel="stylesheet" href="css/user/botao.css"> -->
-            <link rel="stylesheet" href="css/user/normativa.css">
-           
+                 
             
             <title>normativa</title>
 </head>
@@ -34,7 +34,7 @@
        <!-- INICIO NAVBAR  -->
   <header class="navbar fixed-top navbar-expand navbar-light bg-light">
     <div class="collapse navbar-collapse">
-      <ul class="navbar-nav pointer" style="position:relative">
+      <ul class="navbar-nav pointer hamburger" style="position:relative">
         <div class="invisible-button" id="botao-menu"></div>
         
         <!-- INICIO MENU SIDEBAR  -->
@@ -78,20 +78,23 @@
       </ul>
 
 
-      <div class="titulo-header">
+      <div class="titulo-header mx-auto">
 
-        <p class="title-secoes title-desktop" id="main-title">Módulo 1<span class="d-none d-lg-inline">: Resolução Normativa</span></p>
+    <!--    <p class="title-secoes title-desktop" id="main-title">Módulo 1<span class="d-none d-lg-inline">: Resolução Normativa</span></p> -->
+        <p class="title-secoes title-mobile" id="main-title">Módulo 1: Resolução Normativa</p>
         
       </div>
 
     <!--  <div id="topheader"></div> -->
 
-      <ul class="navbar-nav flex-row">
+      <ul class="navbar-nav banch">
         <li class="nav-item">
           <a class="nav-link">
             <div class="logo">
-                <img src="../assets/images/identity/logos/logo_menu.png" class="mr-4 desktop" />
-        <!--     <img src="assets/img/navbar/2019-07-10-wireframe-12-colunas-Header-02.png" class="mobile" /> -->
+                <img src="../assets/images/identity/logos/logo_menu.png"        class="d-none  d-lg-block" />
+                <img src="../assets/images/identity/logos/logo_menu_tablet.png" class="d-none  d-md-block d-lg-none" />
+                <img src="../assets/images/identity/logos/logo_menu_mobile.png" class="d-block d-md-none" />
+                
             </div>
           </a>
         </li>
