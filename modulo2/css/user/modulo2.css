@@ -1,0 +1,53 @@
+body{
+    margin-top: 0!important;
+}
+
+header{
+  
+  width: 100%;
+  height: auto;
+}
+
+img{
+  
+ object-fit: contain;
+}
+
+#section .banner-top{
+    min-height: 550px;
+}
+
+@media only screen and (min-width: 560px) { 
+    
+#logobottom { 
+        margin: -130px 0 40px 0;
+    }
+
+#section .banner-top{
+    min-height: 550px;
+    }
+    
+
+ }
+
+ @media only screen and (max-width: 560px) { 
+    
+    #logobottom { 
+            margin: -100px 0 40px 0;
+            width: 80%;height: 80%;
+        }
+    
+    #section .banner-top{
+        min-height: 350px;
+        }
+   
+}
+
+#avancar img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
