@@ -59,3 +59,39 @@ img{
   transform: scale(1.1);
 }
 
+
+table.tabela {
+  border: 2px solid #3A5DAA;
+  background-color: #FEF7DD;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.tabela td, table.tabela th {
+  border: 0px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.tabela tbody td {
+  font-size: 16px;
+  font-weight: normal;
+}
+table.tabela tr:nth-child(even) {
+  background: #B3E2F2;
+}
+table.tabela thead {
+  background: #3A5DAA;
+}
+table.tabela thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+table.tabela tfoot {
+  font-size: 11px;
+  color: #FFFFFF;
+  background: #3A5DAA;
+}
+table.tabela tfoot td {
+  font-size: 13px;
+}
