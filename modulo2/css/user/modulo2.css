@@ -34,7 +34,8 @@ img{
     
     #logobottom { 
             margin: -100px 0 40px 0;
-            width: 80%;height: 80%;
+            width: 80%;
+            height: 80%;
         }
     
     #section .banner-top{
@@ -94,4 +95,47 @@ table.tabela tfoot {
 }
 table.tabela tfoot td {
   font-size: 13px;
+}
+
+ul.navbar-nav.pointer {
+    width: 140px;
+}
+ul.navbar-nav.banch {
+    width: 415px;
+}
+
+/* salésio - novo */
+@media (max-width: 991px) {
+    .h1, h1 {
+        font-size: 1.6rem;
+    }
+    #main-title{
+        font-size: 24px; 
+
+    }
+    ul.navbar-nav.banch {
+        width: 315px;
+    }
+}
+
+/* salésio - novo */
+@media (max-width: 767px) {
+    .h1, h1 {
+        font-size: 1.6rem;
+    }
+    ul.navbar-nav.banch {
+        width: 60px;
+    }
+}
+/* salésio - novo */
+@media (max-width: 575px) { 
+    ul.navbar-nav.banch {
+        width: 48px;
+    } 
+    #main-title{
+        font-size: 18px; 
+    }
+    ul.navbar-nav.pointer {
+        width: 75px;
+    }
 }

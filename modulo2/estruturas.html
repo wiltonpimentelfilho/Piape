@@ -12,9 +12,17 @@
   <link href="css/theme/theme_color_setup.css" rel="stylesheet" />
   <link href="css/theme/theme_style.css" rel="stylesheet" />
   <link href="css/theme/objects_style.css" rel="stylesheet" />
-  <link href="assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
+  
+  <link rel="stylesheet" href="css/user/sidebar.css">
+  <link rel="stylesheet" href="css/navbar/mcustomscrollbar.css">
+  <link rel="stylesheet" href="css/navbar/navbar-style.css">
 
   <link href="css/user/modulo2.css" rel="stylesheet">
+
+  <link href="assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+  
 
   <title>Módulo2 - Estruturas</title>
 
@@ -22,30 +30,96 @@
 
 <body>
 
-   <section class="banner-top" style="
-   background:url(assets/images/identity/backgrounds/modulo1_abertura.jpg) center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size:cover;
-   background-size: cover;
-   min-height: 40%;
-   display: flex;">
-   
-</section>
+      <!-- INICIO NAVBAR  -->
+  <header class="navbar fixed-top navbar-expand navbar-light bg-light">
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav pointer hamburger" style="position:relative">
+        <div class="invisible-button" id="botao-menu"></div>
+        
+        <!-- INICIO MENU SIDEBAR  -->
 
-<section>
-  <div class="container">
-    <div class="row">
-      <img src="assets/images/identity/logos/logo_interna.png" id="logobottom">
-   </div>
-</div>
-</section>
+        <li class="nav-item">
+          <nav id="sidebar">
 
+            <span class="titulosubmenu"><strong class="">Módulo 2</strong></span>
+            <div id="dismiss">
+              <span class="fechar-hamburguer">FECHAR</span>
+              <i class="fas fa-times"></i>
+            </div>
+
+            
+            <ul class="list-unstyled components">
+            <hr>  
+              <div id="title-sibedar">
+                <span class="subtitulo-submenu"></span>
+              </div>
+            </ul>
+            
+            <ul class="components-2">
+              <li>
+                <a href="#titulo1" class="menu-item">Estrutura<br>do PIAPE</a>
+              </li>
+            </ul>
+
+            <ul class="components-2">
+              <li>
+                <a href="#titulo2" class="menu-item">Tutores que<br>atuam no PIAPE</a>
+              </li>
+            </ul>
+
+            <ul class="components-2">
+              <li>
+                <a href="#titulo3" class="menu-item">Benefícios<br>aos graduandos</a>
+              </li>
+            </ul>
+            
+          </nav>
+
+          <!-- Page Content  -->
+
+          <div id="content navbarSupportedContent" class="botao-hamburguer">
+            <img src="assets/images/navbar/2019-08-06-Alternativas-Menu-05.png" alt="icone-hamburguer" class="icone-hamburguer" />
+            <p class="text-menu-hamburguer d-none d-sm-inline">MENU</p>
+          </div>
+
+        </li>
+        <div class="outside-button" id="outside-invisible-area"></div>
+        <span class="nav-div ml-4"></span>
+      </ul>
+
+
+      <div class="titulo-header mx-auto">
+
+    <!--    <p class="title-secoes title-desktop" id="main-title">Módulo 1<span class="d-none d-lg-inline">: Resolução Normativa</span></p> -->
+        <p class="title-secoes title-mobile" id="main-title">Módulo 2: Organização do PIAPE</p>
+        
+      </div>
+
+    <!--  <div id="topheader"></div> -->
+
+      <ul class="navbar-nav banch">
+        <li class="nav-item">
+          <a class="nav-link">
+            <div class="logo">
+                <img src="assets/images/identity/logos/logo_menu.png"        class="d-none  d-lg-block" />
+                <img src="assets/images/identity/logos/logo_menu_tablet.png" class="d-none  d-md-block d-lg-none" />
+                <img src="assets/images/identity/logos/logo_menu_mobile.png" class="d-block d-md-none" />
+                
+            </div>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+  </header><br>
+
+<section id="titulo1"><div class="row mt-5"></div></section>
 <section>
-	<div class="container">
+	<div class="container mt-5">
 		<div class="row">
 			<div class="col-12">
-				<h1>Estrutura do PIAPE e funções dos(as) tutores(as)</h1><br>
+				<h1>Estrutura do PIAPE</h1>
 
 				<p>Os programas que compõem a Coordenadoria de Avaliação e Apoio Pedagógico (CAAP) são:</p>
 
@@ -53,10 +127,10 @@
 					<li >. Programa de Formação Continuada – PROFOR;</li>
 					<li >. Programa Institucional de Apoio Pedagógico aos Estudantes – PIAPE;</li>
 					<li >. Programa de monitoria.</li>
-				</ul><br>
+				</ul>
 
            <div id="m2_f1">
-             <img class="img-fluid mx-auto p-5 d-block"  src="assets/images/identity/resources/piape_m2_f1.png" style="margin: 11px;"><br><br>
+             <img class="img-fluid mx-auto p-5 d-block"  src="assets/images/identity/resources/piape_m2_f1.png" style="margin: 11px; width:500px; height:500px">
 
              <p>Nesse módulo vamos falar sobre o Programa Institucional de Apoio Pedagógico aos Estudantes (PIAPE).</p>
           </div>
@@ -66,24 +140,24 @@
           <p>Objetivo geral Desenvolver ações de apoio e orientação pedagógica que favoreçam a permanência e a qualidade dos processos de formação dos estudantes nos cursos de graduação da UFSC, proporcionando-lhes condições pedagógicas que atendam as suas necessidades de aprendizagem.</p>
 
           <div id="m2_f2">
-             <img class="img-fluid mx-auto p-5 d-block"  src="assets/images/identity/resources/piape_m2_f2.png" style="margin: 11px;"><br><br>
+             <img class="img-fluid mx-auto p-5 d-block"  src="assets/images/identity/resources/piape_m2_f2.png" style="margin: 11px; width:500px; height:500px">
           </div>
 
           <p>O PIAPE pode ser desenvolvido em duas modalidades:</p>
 
           <ul>
-             <li>a.  Grupos de Aprendizagem.<br>
+             <li><strong>a.  Grupos de Aprendizagem.</strong><br>
                <p class="ml-3">Possuem turmas semestrais ou em módulos, neles são abordados conteúdos que são base para aprendizagem dos conteúdos desenvolvidos pelas disciplinas da Graduação.</p>
             </li>
          </ul>
 
          <div id="m2_f3">
-          <img class="img-fluid mx-auto p-5 d-block"  src="assets/images/identity/resources/piape_m2_f3.png" style="margin: 11px;"><br><br>
+          <img class="img-fluid mx-auto p-5 d-block"  src="assets/images/identity/resources/piape_m2_f3.png" style="margin: 11px; width:500px; height:500px">
        </div>
 
        <ul>
-          <li>b.  Atendimentos de Orientação Pedagógica.<br>
-            <p class="ml-3">Os Atendimentos de Orientação Pedagógica podem ser: (Clique nas setas para saber como podem ser esses atendimentos:)</p><br>
+          <li><strong>b.  Atendimentos de Orientação Pedagógica.</strong><br>
+            <p class="ml-3">Os Atendimentos de Orientação Pedagógica podem ser: (Clique nas setas para saber como podem ser esses atendimentos)</p><br>
          </li>
       </ul>
 
@@ -123,7 +197,7 @@
                 </div>
 
              </div>
-             <div class="button-panel">
+             <div class="button-panel" id="titulo2">
               <button class="radial-bt progress-prev pointer"><i class="fa fa-arrow-left"></i></button>
               <button class="radial-bt progress-next pointer"><i class="fa fa-arrow-right"></i></button>
            </div>
@@ -131,17 +205,19 @@
      </div>
   </div>
 </div>
-</section><br><br>
+</section><br>
+
 
 <h1>Tutores que atuam no PIAPE</h1>
 
-<p>Os tutores presenciais que atuam no PIAPE possuem pós graduação na área e são supervisionados por um professor da UFSC da sua área de atuação.</p>
+<p>Os tutores presenciais que atuam no PIAPE possuem pós-graduação na área e são supervisionados por um professor da UFSC da sua área de atuação.</p>
 
 <div id="m2_f4">
- <img class="img-fluid mx-auto p-5 d-block"  src="assets/images/identity/resources/piape_m2_f4.png" style="margin: 11px;"><br><br>
+ <img class="img-fluid mx-auto p-5 d-block"  src="assets/images/identity/resources/piape_m2_f4.png" style="margin: 11px; width:500px; height:500px"><br>
 </div>
 
-<h2>Atuação nos cinco (5) campi</h2><br>
+<h2>Áreas de atuação nos cinco (5) campi</h2>
+<p class="mb-5">(Clique nas imagens encobertas para conhecer as áreas de atuação)</p>
 
 
 <div id="flipster_carousel" class="mt-2 mb-5">
@@ -150,7 +226,7 @@
       <div class="row flipster_carousel_slider">
         <div class="col-12 no-overflow">
           <div class="flipster_carousel_slides align-items-center">
-            <div class="flipster_carousel-set flipster_carousel-head align-items-center" order="0" style="z-index: 12;">
+            <div class="flipster_carousel-set flipster_carousel-head align-items-center" order="0" style="z-index: 12; margin-left: -59px">
               <div class="flipster_carousel_slide" style="background:url(assets/images/identity/resources/piape_m2_f5_01.png)"></div>
            </div>
            <div class="flipster_carousel-set align-items-center flip-left" order="1" style="z-index: 11;">
@@ -165,7 +241,7 @@
            <div class="flipster_carousel-set align-items-center flip-left" order="4" style="z-index: 8;">
               <div class="flipster_carousel_slide" style="background:url(assets/images/identity/resources/piape_m2_f5_05.png)"></div>
            </div>
-           <div class="flipster_carousel-set align-items-ce6nter flip-left" order="5" style="z-index: 7;">
+           <div class="flipster_carousel-set align-items-center flip-left" order="5" style="z-index: 7;">
               <div class="flipster_carousel_slide" style="background:url(assets/images/identity/resources/piape_m2_f5_06.png)"></div>
            </div>
            <div class="flipster_carousel-set align-items-center flip-left" order="6" style="z-index: 6;">
@@ -260,7 +336,7 @@
       <td>1676</td>
       <td>513</td>
       </tr>
-      <tr>
+      <tr id="titulo3">
       <td>Total</td>
       <td>13683</td>
       <td>10830</td>
@@ -271,9 +347,9 @@
 </div>
 
 <div>
- <h1>Benefícios aos graduandos:</h1>
+ <h1>Benefícios aos graduandos</h1>
  <p>Além da oportunidade de adquirir conhecimentos acerca dos conteúdos curriculares e de base às disciplinas e sobre estratégias que facilitem a aprendizagem, os estudantes que frequentarem, no mínimo, 75% das atividades do PIAPE, terão direito ao certificado emitido pela Coordenadoria de Avaliação e Apoio Pedagógico. Este certificado poderá ser validado pela Coordenação do Curso, com vistas ao cumprimento da carga horária de atividade complementar curricular da graduação, desde que esteja previsto no Projeto Pedagógico do Curso.<br><br>
- Deveres do(a) Tutor(a): (Clique nas setas para saber quais são esses deveres:)</p>
+ Deveres do(a) Tutor(a): (Clique nas setas para saber quais são esses deveres)</p>
 </div>
 
 <section class="section">
