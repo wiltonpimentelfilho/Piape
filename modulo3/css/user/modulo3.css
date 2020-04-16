@@ -1,0 +1,141 @@
+body{
+    margin-top: 0!important;
+}
+
+header{
+  
+  width: 100%;
+  height: auto;
+}
+
+img{
+  
+ object-fit: contain;
+}
+
+#section .banner-top{
+    min-height: 550px;
+}
+
+@media only screen and (min-width: 560px) { 
+    
+#logobottom { 
+        margin: -130px 0 40px 0;
+    }
+
+#section .banner-top{
+    min-height: 550px;
+    }
+    
+
+ }
+
+ @media only screen and (max-width: 560px) { 
+    
+    #logobottom { 
+            margin: -100px 0 40px 0;
+            width: 80%;
+            height: 80%;
+        }
+    
+    #section .banner-top{
+        min-height: 350px;
+        }
+   
+}
+
+#voltar img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#avancar img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+table.tabela {
+  border: 2px solid #3A5DAA;
+  background-color: #FEF7DD;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.tabela td, table.tabela th {
+  border: 0px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.tabela tbody td {
+  font-size: 16px;
+  font-weight: normal;
+}
+table.tabela tr:nth-child(even) {
+  background: #B3E2F2;
+}
+table.tabela thead {
+  background: #3A5DAA;
+}
+table.tabela thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+table.tabela tfoot {
+  font-size: 11px;
+  color: #FFFFFF;
+  background: #3A5DAA;
+}
+table.tabela tfoot td {
+  font-size: 13px;
+}
+
+ul.navbar-nav.pointer {
+    width: 140px;
+}
+ul.navbar-nav.banch {
+    width: 415px;
+}
+
+/* salésio - novo */
+@media (max-width: 991px) {
+    .h1, h1 {
+        font-size: 1.6rem;
+    }
+    #main-title{
+        font-size: 24px; 
+
+    }
+    ul.navbar-nav.banch {
+        width: 315px;
+    }
+}
+
+/* salésio - novo */
+@media (max-width: 767px) {
+    .h1, h1 {
+        font-size: 1.6rem;
+    }
+    ul.navbar-nav.banch {
+        width: 60px;
+    }
+}
+/* salésio - novo */
+@media (max-width: 575px) { 
+    ul.navbar-nav.banch {
+        width: 48px;
+    } 
+    #main-title{
+        font-size: 18px; 
+    }
+    ul.navbar-nav.pointer {
+        width: 75px;
+    }
+}

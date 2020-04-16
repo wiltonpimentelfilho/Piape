@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+.navbar {
+    padding-left: 0;
+}
+
+ul.navbar-nav.pointer {
+    background-color: #3A5EA8;
+    align-items: center;
+}
+
+li.nav-item {
+    width: 125px;
+}
+
+.botao-hamburguer {
+    padding-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A5EA8;
+}
+
+.icone-hamburguer {
+    height: 25px;
+}
+
+.text-menu-hamburguer {
+    align-content: center;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 14pt;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    color: white;
+}
