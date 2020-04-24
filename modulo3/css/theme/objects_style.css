@@ -888,13 +888,13 @@ ul {
 }
 
 .nav-item>a.active{
-  background-color: var(--THEME_COLOR_TERTIARY) !important;
-  border-bottom-color: var(--THEME_COLOR_TERTIARY) !important;
+  background-color: var(--THEME_COLOR_SECONDARY) !important;
+  border-bottom-color: var(--THEME_COLOR_SECONDARY) !important;
 }
 
 .nav-item>a:hover{
-  background-color: var(--THEME_COLOR_TERTIARY) !important;
-  border-bottom-color: var(--THEME_COLOR_TERTIARY) !important;
+  background-color: var(--THEME_COLOR_SECONDARY) !important;
+  border-bottom-color: var(--THEME_COLOR_SECONDARY) !important;
 }
 
 .nav-link{
