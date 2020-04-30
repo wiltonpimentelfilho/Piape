@@ -1,6 +1,6 @@
 /* ACCORDION START */
 .card-header {
-	background: var(--THEME_COLOR_PRIMARY);
+	background: var(--THEME_COLOR_TERTIARY);
 	border-color: var(--THEME_COLOR_AUX);
 
 	background-image: url(../../assets/images/identity/resources/arrow-black-down.png);
@@ -59,6 +59,9 @@
 	padding: 20px 40px 5px 40px;
 	text-align: left;
 	font-weight: 400;
+	border-left: 8px solid #26A7DF;
+    border-right: 8px solid #26A7DF;
+	background: #ffc10775;
 }
 
 .destaque img:first-child {
@@ -812,7 +815,7 @@ ul {
 }
 
 .split_text_box{
-  min-height: 320px;
+  min-height: 254px;
   border: 6px solid var(--THEME_COLOR_PRIMARY);
   background: var(--THEME_COLOR_TERTIARY);
   border-radius: 15px;
@@ -882,18 +885,19 @@ ul {
 /* TABS START */
 
 .tab-content{
-  background-color: var(--THEME_COLOR_QUINTIARY);
+  border: 6px #dee2e6;
+  background-color: var(--THEME_COLOR_TERTIARY);
   padding: 20px;
 }
 
 .nav-item>a.active{
-  background-color: var(--THEME_COLOR_QUINTIARY) !important;
-  border-bottom-color: var(--THEME_COLOR_QUINTIARY) !important;
+  background-color: var(--THEME_COLOR_SECONDARY) !important;
+  border-bottom-color: var(--THEME_COLOR_SECONDARY) !important;
 }
 
 .nav-item>a:hover{
-  background-color: var(--THEME_COLOR_QUINTIARY) !important;
-  border-bottom-color: var(--THEME_COLOR_QUINTIARY) !important;
+  background-color: var(--THEME_COLOR_SECONDARY) !important;
+  border-bottom-color: var(--THEME_COLOR_SECONDARY) !important;
 }
 
 .nav-link{
@@ -901,8 +905,8 @@ ul {
   border-top-right-radius: 6px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  color: #212529;
-  font-family: 'Open Sans', sans-serif;
+  color: #676767;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400 !important;
   font-size: 21px;
   line-height: 28px;

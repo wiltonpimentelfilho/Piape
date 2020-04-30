@@ -16,13 +16,30 @@ body{
     margin-bottom:1.75rem;
 */
 
-h1, h2, h3, h4, h5{
+h1, h5{
 	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
 	color:#3A5EA8;
     font-weight: 800;
     display:block;
     margin-top: 30px;
 }
+
+h2{
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    color:#26A7DF;
+    font-weight: 800;
+    display:block;
+    margin-top: 30px;
+}
+
+h3, h4{
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    color:#6abbde;
+    font-weight: 800;
+    display:block;
+    margin-top: 30px;
+}
+
 
 p, ul, ol{
 	font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
