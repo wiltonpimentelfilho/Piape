@@ -56,7 +56,7 @@
 
 .destaque p {
 	color: var(--THEME_FONT_COLOR);
-	padding: 20px 40px 5px 40px;
+	padding: 20px 40px 20px 40px;
 	text-align: left;
 	font-weight: 400;
 	border-left: 8px solid #26A7DF;
