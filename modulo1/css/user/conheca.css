@@ -13,6 +13,7 @@ img{
  object-fit: contain;
 }
 
+
 @media only screen and (min-width: 560px) { 
 
   #logobottom { 
@@ -36,4 +37,40 @@ img{
     min-height: 350px;
   }
 
+}
+
+/* salésio - novo */
+@media (max-width: 991px) {
+    .h1, h1 {
+        font-size: 1.6rem;
+    }
+    #main-title{
+        font-size: 24px; 
+
+    }
+    ul.navbar-nav.banch {
+        width: 315px;
+    }
+}
+
+/* salésio - novo */
+@media (max-width: 767px) {
+    .h1, h1 {
+        font-size: 1.6rem;
+    }
+    ul.navbar-nav.banch {
+        width: 60px;
+    }
+}
+/* salésio - novo */
+@media (max-width: 575px) { 
+    ul.navbar-nav.banch {
+        width: 48px;
+    } 
+    #main-title{
+        font-size: 18px; 
+    }
+    ul.navbar-nav.pointer {
+        width: 75px;
+    }
 }

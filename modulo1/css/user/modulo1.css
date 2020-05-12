@@ -8,6 +8,51 @@ header{
   height: auto;
 }
 
+img{
+  
+ object-fit: contain;
+}
+
+#section .banner-top{
+    min-height: 550px;
+}
+
+@media only screen and (min-width: 560px) { 
+    
+#logobottom { 
+        margin: -130px 0 40px 0;
+    }
+
+#section .banner-top{
+    min-height: 550px;
+    }
+    
+
+ }
+
+ @media only screen and (max-width: 560px) { 
+    
+    #logobottom { 
+            margin: -100px 0 40px 0;
+            width: 80%;
+            height: 80%;
+        }
+    
+    #section .banner-top{
+        min-height: 350px;
+        }
+   
+}
+
+#voltar img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
 .botao {
 	background-color:#25a8e0;
 	-webkit-border-top-left-radius:40px;
@@ -22,7 +67,7 @@ header{
 	-webkit-border-bottom-left-radius:40px;
 	-moz-border-radius-bottomleft:40px;
 	border-bottom-left-radius:40px;
-text-indent:0;
+	text-indent:0;
 	border:1px solid #2c6ae8;
 	display:inline-block;
 	color:#ffffff;
@@ -44,4 +89,40 @@ text-indent:0;
 .botao:active {
 	position:relative;
 	top:1px;
+}
+
+/* salésio - novo */
+@media (max-width: 991px) {
+    .h1, h1 {
+        font-size: 1.6rem;
+    }
+    #main-title{
+        font-size: 24px; 
+
+    }
+    ul.navbar-nav.banch {
+        width: 315px;
+    }
+}
+
+/* salésio - novo */
+@media (max-width: 767px) {
+    .h1, h1 {
+        font-size: 1.6rem;
+    }
+    ul.navbar-nav.banch {
+        width: 60px;
+    }
+}
+/* salésio - novo */
+@media (max-width: 575px) { 
+    ul.navbar-nav.banch {
+        width: 48px;
+    } 
+    #main-title{
+        font-size: 18px; 
+    }
+    ul.navbar-nav.pointer {
+        width: 75px;
+    }
 }
