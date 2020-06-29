@@ -121,7 +121,7 @@ ul.navbar-nav.banch {
 /* salésio - novo */
 @media (max-width: 767px) {
     .h1, h1 {
-        font-size: 1.6rem;
+        font-size: 2.5rem;
     }
     ul.navbar-nav.banch {
         width: 60px;
